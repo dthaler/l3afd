@@ -25,6 +25,10 @@ by multiple sources.
 See our [L3AF Development Environment](https://github.com/l3af-project/l3af-arch/tree/main/dev_environment)
 for a quick and easy way to try out L3AF on your local machine.
 
+# Generate Swagger Docs
+
+See our [Swaggo setup](docs/swagger.md)
+
 # Building
 
 To build on your local machine, do the following.
@@ -37,6 +41,12 @@ go build .
 For Windows:
 ```
 go build -tags WINDOWS .
+```
+
+On Linux and Windows, one can also build and generate swagger docs by doing:
+```
+cmake -B build
+cmake --build build
 ```
 
 # Testing
