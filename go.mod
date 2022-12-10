@@ -4,7 +4,7 @@ go 1.16
 
 require (
 	github.com/cilium/ebpf v0.6.2
-	github.com/go-chi/chi/v5 v5.0.7
+	github.com/go-chi/chi/v5 v5.0.8
 	github.com/google/go-cmp v0.5.6 // indirect
 	github.com/mitchellh/go-ps v1.0.0
 	github.com/prometheus/client_golang v1.11.0
